@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Amruta9993/Frontend-new-project.git',
+                    url: 'https://github.com/yashaspancham/frontend_s3_web_hosting.git',
                     credentialsId: 'AWS-creds'
             }
         }
